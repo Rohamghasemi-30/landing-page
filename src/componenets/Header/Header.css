@@ -1,0 +1,62 @@
+@font-face{
+    src: url(/src/fonts/Vazir-Light-FD-WOL.ttf);
+    font-family: Vazir-Light-FD-WOL;
+}
+
+@font-face{
+    src: url(/src/fonts/Vazir-Medium-FD-WOL.ttf);
+    font-family: Vazir-Medium-FD-WOL;
+}
+
+.contaner-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    direction: rtl;
+    font-family: Vazir-Medium-FD-WOL;
+    width: 100%;
+}
+
+.contaner-header .part-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.contaner-header .part-right p{
+    text-align: center;
+    font-family: Vazir-Light-FD-WOL;
+}
+
+.contaner-header .part-right h3{
+
+    font-family: Vazir-Light-FD-WOL;
+}
+
+.btn-letsgo {
+    background-color: #D4F6FF;
+    color: #333;
+    font-family: Vazir-Medium-FD-WOL;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    clip-path: polygon(10% 0, 90% 0, 100% 100%, 0% 100%);
+    box-shadow: 5px 5px 15px rgba(255, 221, 174, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.btn-letsgo:hover {
+    background-color: #FFDDAE;
+    box-shadow: 8px 8px 20px rgba(255, 221, 174, 0.7);
+    transform: scale(1.05) rotate(-2deg);
+}
+
+.btn-letsgo:active {
+    transform: scale(0.98) rotate(2deg);
+    box-shadow: 3px 3px 10px rgba(255, 221, 174, 0.4);
+}
